@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foregroundTint="#FFFFFF"
+    android:rotationX="4">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="414dp"
+        android:layout_height="102dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="220dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_chainStyle="packed">
+
+        <ImageView
+            android:id="@+id/Diet"
+            android:layout_width="87dp"
+            android:layout_height="85dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/diet" />
+
+        <ImageView
+            android:id="@+id/BMI"
+            android:layout_width="87dp"
+            android:layout_height="82dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/bmi" />
+
+        <ImageView
+            android:id="@+id/Competitaion"
+            android:layout_width="87dp"
+            android:layout_height="82dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/competition" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="410dp"
+        android:layout_height="113dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginBottom="150dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/runningImg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/Pedometer"
+            android:layout_width="87dp"
+            android:layout_height="98dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/run" />
+
+        <ImageView
+            android:id="@+id/Water"
+            android:layout_width="87dp"
+            android:layout_height="98dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/bottle" />
+
+        <ImageView
+            android:id="@+id/Info"
+            android:layout_width="87dp"
+            android:layout_height="98dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/information" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/menuTitle"
+        android:layout_width="343dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="casual"
+        android:text="Start being healthy with us "
+        android:textColor="#FFC107"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/menutitle"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/menutitle"
+        android:layout_width="103dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="casual"
+        android:textColor="#FFC107"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/menuTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/runningImg"
+        android:layout_width="205dp"
+        android:layout_height="210dp"
+        android:layout_marginBottom="130dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:srcCompat="@drawable/run1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

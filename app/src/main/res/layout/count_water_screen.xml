@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/WaterTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="casual"
+        android:text="Daily water intake monitoring "
+        android:textColor="#FFC107"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/goback1" />
+
+    <ImageView
+        android:id="@+id/goback1"
+        android:layout_width="43dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toStartOf="@+id/WaterTitle"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/green" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="407dp"
+        android:layout_height="102dp"
+        android:layout_marginBottom="100dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/countWaterBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/WaterTitle">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="33dp"
+            android:layout_height="97dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/cup" />
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="33dp"
+            android:layout_height="97dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/cup" />
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="33dp"
+            android:layout_height="97dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/cup" />
+
+        <ImageView
+            android:id="@+id/img4"
+            android:layout_width="33dp"
+            android:layout_height="97dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/cup" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="50dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/countWaterBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <ImageView
+            android:id="@+id/img5"
+            android:layout_width="33dp"
+            android:layout_height="97dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/cup" />
+
+        <ImageView
+            android:id="@+id/img6"
+            android:layout_width="33dp"
+            android:layout_height="97dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/cup" />
+
+        <ImageView
+            android:id="@+id/img7"
+            android:layout_width="33dp"
+            android:layout_height="97dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/cup" />
+
+        <ImageView
+            android:id="@+id/img8"
+            android:layout_width="33dp"
+            android:layout_height="97dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/cup" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/countWaterBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="160dp"
+        android:backgroundTint="#34CF29"
+        android:fontFamily="casual"
+        android:text="Save count of water "
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

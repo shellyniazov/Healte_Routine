@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "230158892588",
+    "project_id": "healthroutine-742ac",
+    "storage_bucket": "healthroutine-742ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230158892588:android:31e261ca4c7bf20c4fdb89",
+        "android_client_info": {
+          "package_name": "com.example.healthroutine"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230158892588-ono1rqnebdpvefkhktg5t6b042231t1l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBexbcLEJwyAY1Hi1oW5lM87Qau4vk26wI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230158892588-ono1rqnebdpvefkhktg5t6b042231t1l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
